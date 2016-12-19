@@ -1,0 +1,56 @@
+name = Sunrise
+description = An extremely flexible, responsive theme with a wealth of regions. Supported by <a href="http://www.morethanthemes.com/" target="_blank">More than (just) Themes</a>. If you like this theme, feel welcome to also check our other <a href="http://www.morethanthemes.com" target="_blank">Premium</a> and <a href="http://drupalizing.com" target="_blank">Free</a> Drupal themes.
+
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = color/colors.css
+stylesheets[all][] = css/local.css
+
+scripts[] = js/jquery.browser.min.js
+
+regions[header_top_left] = Header Top Left
+regions[header_top_right] = Header Top Right
+regions[header] = Header
+regions[navigation] = Navigation
+regions[social] = Social
+regions[banner] = Banner
+regions[highlighted] = Highlighted
+
+regions[promoted] = Promoted - Featured
+regions[content] = Content
+
+regions[google_map_region] = Google Map Region
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[footer_first] = Footer First
+regions[footer_second] = Footer Second
+regions[footer_third] = Footer Third
+regions[footer_fourth] = Footer Fourth
+regions[footer] = Footer
+
+settings[breadcrumb_display]= 1
+settings[scrolltop_display]= 1
+settings[responsive_respond]= 0
+settings[bootstrap_css_cdn]= 3.2.0
+settings[bootstrap_js_cdn]= 3.2.0
+settings[quicksand_js]= 1
+settings[prettyphoto_js]= 1
+settings[prettyphoto_theme]= 'pp_default'
+settings[prettyphoto_social_tools]= 1
+
+
+settings[google_map_latitude]='37.422114'
+settings[google_map_longitude]='-122.083856'
+settings[google_map_zoom]= 13
+settings[google_map_show]= 'Show Map'
+settings[google_map_hide]= 'Hide Map'
+settings[google_map_canvas]= 'map-canvas'
+settings[google_map_js]= 1
+; Information added by Drupal.org packaging script on 2016-03-01
+version = "7.x-1.1"
+core = "7.x"
+project = "sunrise"
+datestamp = "1456824954"
+
